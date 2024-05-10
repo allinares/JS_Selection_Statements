@@ -19,8 +19,9 @@ if (isNaN(answer) || answer < 1 || answer > 11) {
     console.log("too low");
   } else if (answer > favNumber) {
     console.log("too high");
-  } else answer == 10;
-  console.log("Congratulations!");
+  } else {
+    console.log("Congratulations!");
+  }
 }
 
 // Exercise 2
